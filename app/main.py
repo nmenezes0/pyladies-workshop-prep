@@ -1,5 +1,5 @@
 import streamlit as st
-from pages import pyladies
+from dashboard import pyladies
 
 
 def main():
