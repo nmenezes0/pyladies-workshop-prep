@@ -1,3 +1,15 @@
 import streamlit as st
+from pages import pyladies
 
-st.title("Hello World!")
+
+def main():
+    pg = st.navigation(
+        [
+            st.Page(pyladies.show_pyladies_locations_page, title="PyLadies locations"),
+        ]
+    )
+    pg.run()
+
+
+if __name__ == "__main__":
+    main()
