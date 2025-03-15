@@ -9,3 +9,7 @@ format-python-code: ## Format Python code including sorting imports
 	uv run ruff check --select I . --fix
 	uv run ruff check . --fix
 	uv run ruff format .
+
+.PHONY: run-streamlit-app
+run-streamlit-app:
+	uv run streamlit run app/main.py
