@@ -8,11 +8,13 @@ dependencies = [
     "beautifulsoup4>=4.13.3",
     "bertopic>=0.16.4",
     "httpx>=0.28.1",
+    "ipykernel>=6.29.5",
     "llvmlite>=0.44.0",
     "mypy>=1.15.0",
     "pandas>=2.2.3",
     "ruff>=0.11.0",
     "streamlit>=1.43.2",
+    "streamlit-extras>=0.6.0",
 ]
 
 
