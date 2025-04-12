@@ -1,6 +1,6 @@
-# Workshop prep for PyCon LT 2025
+# Workshop prep for PyCon LT 2025 [No longer used.]
 
-Repo with prep code for trialling out workshop materials.
+Repo with prep code for trialling out workshop materials. 
 
 To run:
 * Clone the repo
